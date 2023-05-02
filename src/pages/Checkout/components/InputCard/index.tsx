@@ -103,6 +103,11 @@ export function InputCard() {
                 handleCEPChange(event.currentTarget.value)
               }
             }}
+            onKeyPress={(event: React.KeyboardEvent<HTMLInputElement>) => {
+              if (event.key === 'Enter') {
+                event.preventDefault()
+              }
+            }}
           />
         </DivInput>
       </DivLocation>

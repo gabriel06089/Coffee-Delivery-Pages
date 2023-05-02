@@ -8,7 +8,7 @@ import CartProvider from './contexts/CartContext'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter basename="/Coffee-Delivery-Pages/">
+      <BrowserRouter>
         <CartProvider>
           <Router />
         </CartProvider>

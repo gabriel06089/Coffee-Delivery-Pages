@@ -131,7 +131,7 @@ export function OrderCard() {
             {total > 0 && (
               <TotalDiv>
                 <h1>Total</h1>
-                <h1>R$ {total.toFixed(2)}</h1>
+                <h1>R$ {(3.5 + total).toFixed(2)}</h1>
               </TotalDiv>
             )}
 

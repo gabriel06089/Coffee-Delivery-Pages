@@ -7,8 +7,7 @@ export const DivCoffees = styled.div`
 
   h1 {
     color: ${(props) => props.theme['base-subtitle']};
-    @media (max-width: 900px) {
-      font-size: 3.5rem;
+    @media (max-width: 800px) {
       padding-top: 2rem;
     }
   }
