@@ -88,7 +88,7 @@ export const SucessCard = styled.div`
   padding: 1.5rem 1.5rem;
   animation: ${fadeIn} 5s ease-in-out;
   @media (max-width: 900px) {
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
   }
 `
 export const IconDivBase = styled.div`
@@ -148,6 +148,8 @@ export const IconTextContainer = styled.div`
     line-height: 130%;
   }
   @media (max-width: 900px) {
-    padding: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+    padding-left: 1rem;
   }
 `

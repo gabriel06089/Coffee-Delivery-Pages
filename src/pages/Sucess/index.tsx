@@ -60,7 +60,7 @@ export function Sucess() {
               ) : paymentOption === 'debit' ? (
                 <p>Cartão de débito</p>
               ) : (
-                <p>Prepare o dinheiro, nosso entregador está a caminho!</p>
+                <p>Pagamento em dinheiro</p>
               )}
             </IconTextContainer>
           </IconContainer>
